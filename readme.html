@@ -5,7 +5,20 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>README</title>
 <style>
-  body { max-width: 720px; margin: 2rem auto; padding: 0 1rem; font: 16px/1.55 -apple-system, "SF Pro", system-ui, sans-serif; color: #222; }
+  body {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 4rem;
+    font: 16px/1.55 -apple-system, "SF Pro", system-ui, sans-serif;
+    color: #222;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  @media (min-width: 900px) {
+    body { grid-template-columns: 220px 1fr; gap: 2.5rem; padding-top: 2rem; }
+    aside.sidebar { position: sticky; top: 2rem; align-self: start; }
+  }
   pre, code { background: #f5f5f5; border-radius: 4px; }
   pre { padding: 0.8rem; overflow-x: auto; }
   code { padding: 0.1rem 0.3rem; }
@@ -18,9 +31,28 @@
   td, th { border: 1px solid #ddd; padding: 0.4rem 0.8rem; }
   h1, h2, h3, h4 { line-height: 1.25; }
   .meta { color: #888; font-size: 0.85em; }
+  aside.sidebar {
+    border-right: 1px solid #eee;
+    padding-right: 1rem;
+    font-size: 0.9em;
+  }
+  aside.sidebar h3 { margin: 0 0 0.6rem; font-size: 0.85em; text-transform: uppercase; color: #666; letter-spacing: 0.05em; }
+  aside.sidebar ul { list-style: none; padding: 0; margin: 0; }
+  aside.sidebar li { padding: 0.2rem 0; }
+  article { min-width: 0; }
 </style>
 </head>
 <body>
+<aside class="sidebar">
+  <h3>Site map</h3>
+  <ul>
+    <li><a href="index/home.html">Home</a></li>
+<li><a href="index/tags.html">Tags</a></li>
+<li><a href="published/readme.html">Published Hub</a></li>
+<li><a href="readme.html">README</a></li>
+<li><a href="index.html">Digital Garden — Public Site</a></li>
+  </ul>
+</aside>
 <article>
 <h1 id="digital-garden">Digital Garden</h1>
 <blockquote>
@@ -91,15 +123,15 @@ make lint      # 检查每篇笔记是否有 frontmatter
 </tr>
 </tbody>
 </table>
-<p>完整对照表 + tag 字典见 <a href="Index/Tags.html">Index/Tags</a>。</p>
+<p>完整对照表 + tag 字典见 <a href="index/tags.html">Index/Tags</a>。</p>
 <h2 id="_4">如何写笔记</h2>
 <ol>
 <li><code>Cmd+N</code> 新建一篇 → 默认套 <code>Templates/Note.md</code></li>
 <li>改 frontmatter：<code>title:</code> / <code>date:</code> / <code>tags:</code> / <code>publish: true|false</code> / <code>status:</code></li>
-<li>主体用 markdown；双向链接用 <code>[另一篇笔记](另一篇笔记.html)</code> 或 <code>[显示文字](Note.html)</code></li>
+<li>主体用 markdown；双向链接用 <code>[另一篇笔记](另一篇笔记.html)</code> 或 <code>[显示文字](note.html)</code></li>
 <li>写完跑 <code>make publish</code>（公开稿）或 <code>make sweep</code>（找孤立）</li>
 </ol>
-<p>更详细的"为什么要这样"见 <a href="Notes/getting-started.html">Getting Started</a>。</p>
+<p>更详细的"为什么要这样"见 <a href="notes/getting-started.html">Getting Started</a>。</p>
 <h2 id="_5">公开发布</h2>
 <pre><code class="language-bash">make publish           # 编译到 dist/
 </code></pre>

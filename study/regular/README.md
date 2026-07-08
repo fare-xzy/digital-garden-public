@@ -1,0 +1,13 @@
+---
+title: README
+tags: [study, study/regular]
+publish: true
+---
+
+# 正则表达式
+
+* 军官证 `/^[\u4E00-\u9FA5](字第)([0-9a-zA-Z]{4,8})(号?)$/`
+  
+  
+
+

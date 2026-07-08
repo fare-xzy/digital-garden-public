@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>README</title>
+<style>
+  body { max-width: 720px; margin: 2rem auto; padding: 0 1rem; font: 16px/1.55 -apple-system, "SF Pro", system-ui, sans-serif; color: #222; }
+  pre, code { background: #f5f5f5; border-radius: 4px; }
+  pre { padding: 0.8rem; overflow-x: auto; }
+  code { padding: 0.1rem 0.3rem; }
+  pre code { padding: 0; background: transparent; }
+  blockquote { border-left: 3px solid #ddd; margin-left: 0; padding-left: 1rem; color: #555; }
+  a { color: #1565c0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  hr { border: none; border-top: 1px solid #eee; margin: 1.5rem 0; }
+  table { border-collapse: collapse; }
+  td, th { border: 1px solid #ddd; padding: 0.4rem 0.8rem; }
+  h1, h2, h3, h4 { line-height: 1.25; }
+  .meta { color: #888; font-size: 0.85em; }
+</style>
+</head>
+<body>
+<article>
+<h1 id="digital-garden">Digital Garden</h1>
+<blockquote>
+<p>个人双链知识库。原子化笔记，双向链接，长期迭代，没有"完成"。</p>
+</blockquote>
+<p><strong>打开方式</strong>：当作 <a href="https://obsidian.md/">Obsidian</a> vault。</p>
+<h2 id="_1">这是什么</h2>
+<ul>
+<li>一个本地优先的 markdown vault，<code>publish:</code> 标记控制每篇笔记是否对外发布</li>
+<li>一对最小 Python 工具：<strong>发布</strong>（<code>publish.py</code> / <code>make publish</code>）和<strong>整理孤立簇</strong>（<code>sweep.py</code> / <code>make sweep</code>）</li>
+<li>一套完全 stdlib 的代码，零外部依赖，零 npm / 零 docker</li>
+</ul>
+<h2 id="_2">快速上手</h2>
+<pre><code class="language-bash">make install   # 第一次：起 venv + 装 pytest
+make test      # 跑单测 (应 11 全过)
+make publish   # 编译 publish:true 的笔记到 dist/
+make sweep     # 列出&quot;同 tag 但没外链&quot;的孤立笔记
+make lint      # 检查每篇笔记是否有 frontmatter
+</code></pre>
+<h2 id="_3">目录约定</h2>
+<table>
+<thead>
+<tr>
+<th>路径</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Index/</code></td>
+<td>vault 自身的索引页：<code>Home</code> / <code>Tags</code> / <code>Maps of Content</code> / 各主题 MOC</td>
+</tr>
+<tr>
+<td><code>Notes/</code></td>
+<td>长文笔记（默认目的地）</td>
+</tr>
+<tr>
+<td><code>Notes/daily</code></td>
+<td>日记（<code>Cmd+D</code> 自动建到这里）</td>
+</tr>
+<tr>
+<td><code>Inbox/</code></td>
+<td>未整理的原材料，每周 <code>make sweep</code></td>
+</tr>
+<tr>
+<td><code>Published/</code></td>
+<td>已经决定要公开的内容</td>
+</tr>
+<tr>
+<td><code>Templates/</code></td>
+<td>Obsidian 模板（<code>Note.md</code> / <code>Daily.md</code>）</td>
+</tr>
+<tr>
+<td><code>assets/</code></td>
+<td>图片 / 附件</td>
+</tr>
+<tr>
+<td><code>dist/</code></td>
+<td><code>make publish</code> 产物（<code>dist/</code> 在 <code>.gitignore</code>，不入库）</td>
+</tr>
+<tr>
+<td><code>.scripts/</code></td>
+<td>publish / sweep / tests / lint 脚本</td>
+</tr>
+<tr>
+<td><code>.obsidian/</code></td>
+<td>Obsidian 配置，与 vault 一起搬</td>
+</tr>
+</tbody>
+</table>
+<p>完整对照表 + tag 字典见 <a href="Index/Tags.html">Index/Tags</a>。</p>
+<h2 id="_4">如何写笔记</h2>
+<ol>
+<li><code>Cmd+N</code> 新建一篇 → 默认套 <code>Templates/Note.md</code></li>
+<li>改 frontmatter：<code>title:</code> / <code>date:</code> / <code>tags:</code> / <code>publish: true|false</code> / <code>status:</code></li>
+<li>主体用 markdown；双向链接用 <code>[另一篇笔记](另一篇笔记.html)</code> 或 <code>[显示文字](Note.html)</code></li>
+<li>写完跑 <code>make publish</code>（公开稿）或 <code>make sweep</code>（找孤立）</li>
+</ol>
+<p>更详细的"为什么要这样"见 <a href="Notes/getting-started.html">Getting Started</a>。</p>
+<h2 id="_5">公开发布</h2>
+<pre><code class="language-bash">make publish           # 编译到 dist/
+</code></pre>
+<p><code>dist/</code> 是能直接丢给任何静态站服务（Netlify / Cloudflare Pages / GitHub Pages）
+的产物。把 <code>dist/</code> 推到一个 <code>username.github.io</code> 子 repo 就能上线。</p>
+<h2 id="_6">整体视图</h2>
+<pre><code>Digital Garden/
+├── .obsidian/                # Obsidian 自己的配置
+├── .scripts/                 # publish/sweep/lint
+├── .venv/                    # 本地虚拟环境（不入库）
+├── assets/                   # 图片 / 附件
+├── dist/                     # 编译产物（不入库）
+├── Index/                    # 索引与 MOC
+├── Inbox/                    # 原材料
+├── Notes/                    # 主要笔记
+│   └── daily/                # 日记（Cmd+D）
+├── Published/                # 公开内容
+├── Templates/                # Obsidian 模板
+├── tests/                    # 单测
+├── IDEA.md                   # 立项说明
+├── Makefile                  # 入口：`make help`
+├── README.md                 # 你正在读的这一篇
+├── publish.py                # 编译脚本
+└── sweep.py                  # 孤立簇扫描
+</code></pre>
+<h2 id="license">License</h2>
+<p>笔记内容以实际发布页的声明为准。
+代码部分（<code>publish.py</code> / <code>sweep.py</code> / tests）以 MIT 发布。</p>
+</article>
+</body>
+</html>

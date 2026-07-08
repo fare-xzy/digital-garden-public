@@ -1,0 +1,13 @@
+---
+title: Published Hub
+publish: true
+tags: [meta/index, meta/published]
+---
+
+# 已对外发布
+
+回到 [Home](Index/Home.html) · 看 [Tags](Index/Tags.html)
+
+> 这一文件夹里的笔记就是公开站的内容根，generate 出来的产物在 `dist/`。
+
+<!-- 自动列出本文件夹下 publish:true 的笔记 -->

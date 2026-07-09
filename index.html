@@ -19,15 +19,18 @@
 <body>
   <div id="app">Loading Digital Garden...</div>
   <script>
-    window.$docsify = {
-      el: '#app',
-      name: "fare-xzy's Digital Garden",
-      repo: 'https://github.com/fare-xzy/digital-garden',
-      auto2top: true,
-      loadSidebar: true,
-      loadNavbar: true,
-      subMaxLevel: 3,
-      autoHeader: true,
+  window.$docsify = {
+    el: '#app',
+    name: "fare-xzy's Digital Garden",
+    repo: 'https://github.com/fare-xzy/digital-garden',
+    // homepage: 根 README.md → 必须小写 'readme.md'，因为 deploy 的
+    // lowercase pass 把所有文件名小写了
+    homepage: 'readme.md',
+    auto2top: true,
+    loadSidebar: true,
+    loadNavbar: true,
+    subMaxLevel: 3,
+    autoHeader: true,
       search: {
         paths: 'auto',
         placeholder: '🔍 搜索',

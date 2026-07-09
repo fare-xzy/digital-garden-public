@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/systemarchitect]
-publish: true
----
 
 # 系统架构师课程学习
 

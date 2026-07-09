@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/language/python/basic]
-publish: true
----
 
 该文件夹下内容为基础入门
 =

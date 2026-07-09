@@ -1,8 +1,3 @@
----
-title: Singleton
-tags: [study, study/designpatterns/code]
-publish: true
----
 
 # 单例模式
 

@@ -1,8 +1,3 @@
----
-title: VueRouter
-tags: [study, study/web]
-publish: true
----
 
 # VueRouter3.x
 

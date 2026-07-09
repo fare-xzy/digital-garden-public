@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/database/nosql/mongodb]
-publish: true
----
 
 MongoDB Study
 =

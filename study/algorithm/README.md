@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/algorithm]
-publish: true
----
 
 # algorithm 相关
 

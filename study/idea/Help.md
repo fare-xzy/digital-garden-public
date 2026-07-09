@@ -1,8 +1,3 @@
----
-title: Help
-tags: [study, study/idea]
-publish: true
----
 
 # 官方帮助
 

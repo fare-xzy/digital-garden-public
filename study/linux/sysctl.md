@@ -1,8 +1,3 @@
----
-title: sysctl
-tags: [study, study/linux]
-publish: true
----
 
 # CentOS 7 中影响 TCP 请求的 `sysctl` 参数及其解释：
 

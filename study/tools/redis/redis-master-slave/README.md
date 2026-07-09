@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/tools/redis/redis-master-slave]
-publish: true
----
 
 # Redis Master-Slave 本地部署说明
 

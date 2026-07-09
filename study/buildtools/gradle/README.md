@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/buildtools/gradle]
-publish: true
----
 
 # Gradle
 

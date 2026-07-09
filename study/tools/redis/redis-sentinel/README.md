@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/tools/redis/redis-sentinel]
-publish: true
----
 
 # Redis Sentinel 本地部署说明
 

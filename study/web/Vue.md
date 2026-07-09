@@ -1,8 +1,3 @@
----
-title: Vue
-tags: [study, study/web]
-publish: true
----
 
 # Vue2
 

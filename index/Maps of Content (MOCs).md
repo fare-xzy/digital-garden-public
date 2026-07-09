@@ -1,8 +1,3 @@
----
-title: Maps of Content
-publish: true
-tags: [meta/index, meta/moc]
----
 
 # Maps of Content
 

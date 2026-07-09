@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/designpatterns]
-publish: true
----
 
 # DesignPattern
 

@@ -1,8 +1,3 @@
----
-title: README
-publish: true
-tags: [meta/index, meta/about]
----
 
 # Digital Garden
 

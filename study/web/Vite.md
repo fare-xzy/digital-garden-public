@@ -1,8 +1,3 @@
----
-title: Vite
-tags: [study, study/web]
-publish: true
----
 
 # Vite
 

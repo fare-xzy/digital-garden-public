@@ -1,8 +1,3 @@
----
-title: Basic
-tags: [study, study/language/python/basic]
-publish: true
----
 
 笔记
 =

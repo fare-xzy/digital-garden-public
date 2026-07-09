@@ -1,8 +1,3 @@
----
-title: Published Hub
-publish: true
-tags: [meta/index, meta/published]
----
 
 # 已对外发布
 

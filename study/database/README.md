@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/database]
-publish: true
----
 
 数据库
 =

@@ -1,8 +1,3 @@
----
-title: Rust
-tags: [study, study/language/rust]
-publish: true
----
 
 # RUST
 

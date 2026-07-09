@@ -1,8 +1,3 @@
----
-title: Vuex
-tags: [study, study/web]
-publish: true
----
 
 # VueX
 

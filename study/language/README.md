@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/language]
-publish: true
----
 
 # Language
 

@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/windows]
-publish: true
----
 
 Windows 常用命令
 =

@@ -1,8 +1,3 @@
----
-title: Tags
-publish: true
-tags: [meta/index]
----
 
 # Tags
 

@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/git]
-publish: true
----
 
 git干货集锦
 =

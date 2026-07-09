@@ -1,8 +1,3 @@
----
-title: plugin
-tags: [study, study/idea]
-publish: true
----
 
 # Idea 插件
 

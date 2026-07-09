@@ -1,8 +1,3 @@
----
-title: Question
-tags: [study, study/audition]
-publish: true
----
 
 # 面试题
 1. Java基础。自动拆装箱如何实现，String，StringBuffer，StringBuilder的异同以及各自的实现。

@@ -1,8 +1,3 @@
----
-title: Home
-publish: true
-tags: [meta/index]
----
 
 # Digital Garden — Home
 

@@ -1,8 +1,3 @@
----
-title: Kafka
-tags: [study, study/middleware/mq/kafka]
-publish: true
----
 
 # Kafka
 

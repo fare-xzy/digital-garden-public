@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/middleware/database/sql/mysql]
-publish: true
----
 
 MySQL数据库各种操作语句累计
 =

@@ -1,8 +1,3 @@
----
-title: Digital Garden — Public Site
-publish: true
-tags: [meta/index, meta/published]
----
 
 # Digital Garden — Public Site
 

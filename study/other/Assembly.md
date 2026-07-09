@@ -1,8 +1,3 @@
----
-title: Assembly
-tags: [study, study/other]
-publish: true
----
 
 ```xml
 <assembly xmlns="http://maven.apache.org/ASSEMBLY/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

@@ -1,8 +1,3 @@
----
-title: HTML
-tags: [study, study/web]
-publish: true
----
 
 # HTML & JS
 

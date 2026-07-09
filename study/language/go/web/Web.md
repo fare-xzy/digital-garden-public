@@ -1,8 +1,3 @@
----
-title: Web
-tags: [study, study/language/go/web]
-publish: true
----
 
 o Web编程
 =

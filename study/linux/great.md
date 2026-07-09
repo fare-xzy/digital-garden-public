@@ -1,8 +1,3 @@
----
-title: great
-tags: [study, study/linux]
-publish: true
----
 
 # 一些好用的小命令
 

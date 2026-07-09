@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/web]
-publish: true
----
 
 # WEB
 

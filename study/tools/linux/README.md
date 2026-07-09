@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/tools/linux]
-publish: true
----
 
 # openEuler Docker 一键安装脚本
 

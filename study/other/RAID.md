@@ -1,8 +1,3 @@
----
-title: RAID
-tags: [study, study/other]
-publish: true
----
 
 RAID（独立磁盘冗余阵列，Redundant Array of Independent Disks）通过将多个物理硬盘组合为逻辑存储单元，实现**性能提升**、**数据冗余**（容错）或两者兼顾。不同RAID级别（如0/1/10/5/50/6/60）的设计目标不同，适用于不同场景。以下是各RAID级别的详细解析：
 

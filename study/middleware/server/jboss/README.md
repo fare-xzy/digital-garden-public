@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/middleware/server/jboss]
-publish: true
----
 
 JBoss 相关语句
 =

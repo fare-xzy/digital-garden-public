@@ -1,8 +1,3 @@
----
-title: MCP
-tags: [study, study/ai]
-publish: true
----
 
 # AI MCP Server    
 

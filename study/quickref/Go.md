@@ -1,8 +1,3 @@
----
-title: Go
-tags: [study, study/quickref]
-publish: true
----
 
 Go Quick Reference
 

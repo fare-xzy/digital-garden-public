@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/database/sql/oracle]
-publish: true
----
 
 # Oracle
 

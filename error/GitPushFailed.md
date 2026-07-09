@@ -1,8 +1,3 @@
----
-title: GitPushFailed
-tags: [error]
-publish: true
----
 
 # Git 推送失败（无法 push 到 GitHub）
 

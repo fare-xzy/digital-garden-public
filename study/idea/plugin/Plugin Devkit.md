@@ -1,8 +1,3 @@
----
-title: Plugin Devkit
-tags: [study, study/idea/plugin]
-publish: true
----
 
 # Plugin Devkit api
 

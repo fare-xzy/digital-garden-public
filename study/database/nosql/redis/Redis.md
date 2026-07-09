@@ -1,8 +1,3 @@
----
-title: Redis
-tags: [study, study/database/nosql/redis]
-publish: true
----
 
 # Redis
 

@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/tools/redis/redis-cluster]
-publish: true
----
 
 Redis Cluster 本地部署说明
 =

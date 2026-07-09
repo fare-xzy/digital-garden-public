@@ -1,8 +1,3 @@
----
-title: Docker
-tags: [study, study/other]
-publish: true
----
 
 # Docker
 

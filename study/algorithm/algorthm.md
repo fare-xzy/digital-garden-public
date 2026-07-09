@@ -1,8 +1,3 @@
----
-title: algorthm
-tags: [study, study/algorithm]
-publish: true
----
 
 ## 动态规划
 

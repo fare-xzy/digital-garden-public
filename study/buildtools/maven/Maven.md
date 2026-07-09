@@ -1,8 +1,3 @@
----
-title: Maven
-tags: [study, study/buildtools/maven]
-publish: true
----
 
 Maven
 =

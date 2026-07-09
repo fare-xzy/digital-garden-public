@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/audition]
-publish: true
----
 
 # Audition Summary
 

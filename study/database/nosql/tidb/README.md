@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/database/nosql/tidb]
-publish: true
----
 
 TIDB
 =

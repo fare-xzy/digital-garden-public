@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/new]
-publish: true
----
 
 # 新知识库
 

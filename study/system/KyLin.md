@@ -1,8 +1,3 @@
----
-title: KyLin
-tags: [study, study/system]
-publish: true
----
 
 # 麒麟V10
 

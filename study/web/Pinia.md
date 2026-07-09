@@ -1,8 +1,3 @@
----
-title: Pinia
-tags: [study, study/web]
-publish: true
----
 
 # Pinia
 

@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/container/docker]
-publish: true
----
 
 Docker
 =

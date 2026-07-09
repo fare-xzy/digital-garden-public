@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/language/python]
-publish: true
----
 
 Python自学之路
 =

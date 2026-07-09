@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/web/thymeleaf]
-publish: true
----
 
 Thymeleaf常用语法
 =

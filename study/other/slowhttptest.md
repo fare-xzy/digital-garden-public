@@ -1,8 +1,3 @@
----
-title: slowhttptest
-tags: [study, study/other]
-publish: true
----
 
 # slowhttptest
 

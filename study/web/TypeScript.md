@@ -1,8 +1,3 @@
----
-title: TypeScript
-tags: [study, study/web]
-publish: true
----
 
 # TypeScript
 

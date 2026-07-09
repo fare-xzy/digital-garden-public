@@ -1,8 +1,3 @@
----
-title: ANS1
-tags: [study, study/standard]
-publish: true
----
 
 # ASN1
 

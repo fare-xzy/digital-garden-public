@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/idea]
-publish: true
----
 
 IDEA快捷键记录
 =

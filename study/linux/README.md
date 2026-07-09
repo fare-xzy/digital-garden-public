@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/linux]
-publish: true
----
 
 # Linux 相关命令
 

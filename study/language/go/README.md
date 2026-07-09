@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/language/go]
-publish: true
----
 
 # GoLang
 

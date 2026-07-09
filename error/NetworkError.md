@@ -1,8 +1,3 @@
----
-title: NetworkError
-tags: [error]
-publish: true
----
 
 `java.net.SocketException: Connection reset` 
 

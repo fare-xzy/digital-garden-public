@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/database/sql/pgsql]
-publish: true
----
 
 Postgresql
 =

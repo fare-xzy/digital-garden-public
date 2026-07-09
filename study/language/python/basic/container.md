@@ -1,8 +1,3 @@
----
-title: container
-tags: [study, study/language/python/basic]
-publish: true
----
 
 容器
 =

@@ -1,8 +1,3 @@
----
-title: Image
-tags: [study, study/other]
-publish: true
----
 
 # 列出一些不好找的镜像站
 

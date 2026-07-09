@@ -1,8 +1,3 @@
----
-title: README
-tags: [study, study/language/rust]
-publish: true
----
 
 # Rust
 
